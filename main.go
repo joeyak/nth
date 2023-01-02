@@ -36,3 +36,19 @@ func GetNth[T comparable](item T, slice []T) string {
 	}
 	panic(ErrNoneth)
 }
+
+// Thank you to cpt who provided the correct code,
+// but that's not in the spirit of this little project
+// so it's staying private
+func indexToString(index int) string {
+	switch index % 10 {
+	case 1:
+		return fmt.Sprintf("%dst", index)
+	case 2:
+		return fmt.Sprintf("%dnd", index)
+	case 3:
+		return fmt.Sprintf("%drd", index)
+	default:
+		return fmt.Sprintf("%dth", index)
+	}
+}
