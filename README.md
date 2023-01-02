@@ -9,3 +9,5 @@ What functions are there?
 `Nth` returns the Nth
 
 `GetNth` returns the Nth in a slice
+
+# NOTE FOR ZORCH IF YOU NEED 21st THEN YOU'RE OBVIOUSLY DOING SOMETHING WRONG
